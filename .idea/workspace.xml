@@ -24,8 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/model_(100).tflite" afterDir="false" />
+    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="tflite model 밤">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" afterDir="false" />
     </list>
@@ -52,8 +51,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/minnj/Documents/Github/tflite (1)/app/src/main/java/com/example/android/tflitecamerademo/AutoFitTextureView.java_SELECTED" value="AutoFitTextureView" />
     <property name="android-custom-viewC:/Users/minnj/Downloads/tensorflow-for-poets-2-master/android/tflite/app/src/main/java/com/example/android/tflitecamerademo/AutoFitTextureView.java_SELECTED" value="AutoFitTextureView" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tflite (1)" />
+    <property name="multi-representation-previewC:/Users/minnj/Documents/Github/tflite (1)/app/src/main/java/com/example/android/tflitecamerademo/AutoFitTextureView.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/minnj/Downloads/tensorflow-for-poets-2-master/android/tflite/app/src/main/java/com/example/android/tflitecamerademo/AutoFitTextureView.java_selected" value="Custom views" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +77,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="tflite_(1).app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622107856888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tflite model 밤">
+      <created>1622108578687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622108578687</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="tflite model 밤" />
+    <option name="LAST_COMMIT_MESSAGE" value="tflite model 밤" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1038" y="274" key="#Notifications" timestamp="1622108264742">
@@ -179,10 +188,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617525894975" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622107709999">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622108499102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622107709999" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622108499102" />
     <state x="1030" y="310" width="428" height="204" key="Github.ShareDialog" timestamp="1622107777010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,10 +200,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="891" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622107787139" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622108188300">
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom" timestamp="1622108567768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622108188300" />
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622108567768" />
+    <state width="1491" height="209" key="GridCell.Tab.0.center" timestamp="1622108567767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622108567767" />
+    <state width="1491" height="209" key="GridCell.Tab.0.left" timestamp="1622108567767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622108567767" />
+    <state width="1491" height="209" key="GridCell.Tab.0.right" timestamp="1622108567767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622108567767" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622108579835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622108579835" />
     <state x="475" y="10" width="585" height="804" key="find.popup" timestamp="1617526075687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
