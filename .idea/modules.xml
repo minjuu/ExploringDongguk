@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tflite_(1).iml" filepath="$PROJECT_DIR$/.idea/modules/tflite_(1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tflite_(1).app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tflite_(1).app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tflite_building.iml" filepath="$PROJECT_DIR$/.idea/modules/tflite_building.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tflite_building.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tflite_building.app.iml" />
     </modules>
   </component>
 </project>
