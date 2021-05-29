@@ -15,7 +15,21 @@
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/info_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/info"
+        android:textColor="#FAFDFD"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        ></Button>
 
     <com.example.android.tflitecamerademo.AutoFitTextureView
         android:id="@+id/texture"
@@ -25,9 +39,12 @@
         android:layout_alignParentTop="true" />
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="80dp"
-        android:src="@drawable/tfl2_logo_dark" />
+        android:layout_marginTop="2dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo" />
+
+
     <FrameLayout
         android:id="@+id/control"
         android:layout_width="match_parent"
@@ -35,6 +52,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:background="@color/colorWhite">
+
 
 
         <TextView android:id="@+id/text"

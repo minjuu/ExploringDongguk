@@ -123,7 +123,7 @@ public class ImageClassifier {
 
     // print the results
     String textToShow = printTopKLabels();
-    textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
+    //textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
     return textToShow;
   }
 
