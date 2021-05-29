@@ -3,8 +3,8 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel_3" />
         <device id="pixel_4_xl" />
+        <device id="pixel_3" />
       </config>
     </shared>
   </component>
@@ -31,15 +31,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="bold">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="dialog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/CameraActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/CameraActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_camera.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622289555088</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dialog">
+      <created>1622301240560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622301240560</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +261,8 @@
     <MESSAGE value="ui 수정" />
     <MESSAGE value="ui 수정2" />
     <MESSAGE value="bold" />
-    <option name="LAST_COMMIT_MESSAGE" value="bold" />
+    <MESSAGE value="dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1038" y="274" key="#Notifications" timestamp="1622108264742">
@@ -301,22 +305,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="891" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622107787139" />
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1622301087104">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1622302003727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622301087104" />
-    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1622301087104">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622302003727" />
+    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1622302003726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622301087104" />
-    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1622301087104">
+    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622302003726" />
+    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1622302003726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622301087104" />
-    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1622301087104">
+    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622302003726" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1622302003727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622301087104" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622302003727" />
     <state x="500" y="114" key="RollbackChangesDialog" timestamp="1622292633944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,10 +329,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622128889312" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622289556958">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622301242444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622289556958" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622301242444" />
     <state x="953" y="190" key="chooseDestDirectoryDialog" timestamp="1622290277839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
