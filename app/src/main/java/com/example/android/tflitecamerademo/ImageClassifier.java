@@ -123,7 +123,7 @@ public class ImageClassifier {
 
     // print the results
     String textToShow = printTopKLabels();
-    textToShow = "\n건물 인식 정확도\n" + textToShow;
+    textToShow = "\n\n" + textToShow;
     //textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
     return textToShow;
   }

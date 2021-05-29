@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_4_xl" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -27,9 +29,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="ui 수정">
+    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="ui 수정2">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nab.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/popup.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +68,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="LMV500N6d2d3a05" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-29T08:27:49.050Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-29T11:14:06.143Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-viewC:/Users/minnj/Documents/Github/tflite (1)/app/src/main/java/com/example/android/tflitecamerademo/AutoFitTextureView.java_SELECTED" value="AutoFitTextureView" />
@@ -208,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622283969204</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ui 수정2">
+      <created>1622284452489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622284452489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +244,8 @@
     <MESSAGE value="tflite model 22" />
     <MESSAGE value="로고 i아이콘 추가" />
     <MESSAGE value="ui 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui 수정" />
+    <MESSAGE value="ui 수정2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui 수정2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1038" y="274" key="#Notifications" timestamp="1622108264742">
@@ -245,6 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617525894975" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622288817362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622288817362" />
     <state x="630" y="76" width="859" height="638" key="AVDManager" timestamp="1622129148914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -265,30 +284,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="891" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622107787139" />
-    <state width="1491" height="209" key="GridCell.Tab.0.bottom" timestamp="1622278309762">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1622289091367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622278309762" />
-    <state width="1491" height="209" key="GridCell.Tab.0.center" timestamp="1622278309762">
+    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622289091367" />
+    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1622289091367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622278309762" />
-    <state width="1491" height="209" key="GridCell.Tab.0.left" timestamp="1622278309762">
+    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622289091367" />
+    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1622289091366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622278309762" />
-    <state width="1491" height="209" key="GridCell.Tab.0.right" timestamp="1622278309762">
+    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622289091366" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1622289091367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622278309762" />
+    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622289091367" />
     <state x="555" y="57" key="SettingsEditor" timestamp="1622128889312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622128889312" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622283971084">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622284454044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622283971084" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622284454044" />
     <state x="475" y="10" width="585" height="804" key="find.popup" timestamp="1617526075687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
