@@ -17,4 +17,8 @@
     <style name="MaterialTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen" />
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000</color>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/main</item>
+    </style>
 </resources>

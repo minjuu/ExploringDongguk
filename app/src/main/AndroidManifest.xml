@@ -28,13 +28,20 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/MaterialTheme">
 
-        <activity android:name="com.example.android.tflitecamerademo.CameraActivity"
-                  android:label="@string/app_name">
+        <activity android:name="com.example.android.tflitecamerademo.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.example.android.tflitecamerademo.CameraActivity"
+            android:label="@string/app_name">
+
+        </activity>
+
     </application>
 
 </manifest>
