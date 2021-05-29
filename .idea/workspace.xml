@@ -27,18 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="로고 i아이콘 추가">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/na.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nanumbarungothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/nsr.ttf" afterDir="false" />
+    <list default="true" id="6cfc564c-e327-4789-bdf0-15cbdc91c985" name="Default Changelist" comment="ui 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/labels.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/ImageClassifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera2_basic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/background4.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622273719747</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ui 수정">
+      <created>1622283969204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622283969204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +229,8 @@
     <MESSAGE value="tflite model" />
     <MESSAGE value="tflite model 22" />
     <MESSAGE value="로고 i아이콘 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="로고 i아이콘 추가" />
+    <MESSAGE value="ui 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1038" y="274" key="#Notifications" timestamp="1622108264742">
@@ -286,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622128889312" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622273721513">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622283971084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622273721513" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622283971084" />
     <state x="475" y="10" width="585" height="804" key="find.popup" timestamp="1617526075687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
