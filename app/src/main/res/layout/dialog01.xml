@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="300dp"
-    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="280dp"
     android:layout_gravity="center"
     android:orientation="vertical">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dgumap" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="Kakao Map" />
+        android:padding="17dp"
+        android:text="🌏 동국대학교 한 눈에 보기"
+        android:textStyle="bold"
+        android:fontFamily="@font/nab"/>
+
 
     <Button
         android:id="@+id/noBtn"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/no"
         android:textColor="#FAFDFD"
         android:textSize="14dp"
         android:textStyle="bold"></Button>
-
 
 
 

@@ -25,6 +25,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
+    <ImageView
+        android:layout_marginTop="2dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo" />
     <FrameLayout
         android:id="@+id/control"
         android:layout_width="match_parent"
@@ -33,16 +38,32 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/texture"
-        android:background="@color/control_background"
+        android:background="@drawable/background5"
         android:orientation="horizontal">
 
         <TextView android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:textColor="#FFF"
+            android:paddingLeft="33dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:fontFamily="@font/na"
+            android:paddingTop="112dp"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="normal"
+            android:fontFamily="@font/nab"
+            android:paddingLeft="20dp"
+            android:paddingTop="127dp"
+            android:layout_marginLeft="40dp"
+            android:text="건물 인식 정확도" />
 
 
     </FrameLayout>

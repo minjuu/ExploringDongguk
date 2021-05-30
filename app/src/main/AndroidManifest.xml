@@ -15,8 +15,8 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/MaterialTheme">
         <meta-data
-            android:name="com.kakao.sdk.AppKey"
-            android:value="ce9522a5345969a8ab576caf0b78f2ae"/>
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCyaCk9AmKkSMtv6qoksbwVfMcZ_TvQw04"/>
 
         <activity android:name="com.example.android.tflitecamerademo.SplashActivity"
             android:theme="@style/SplashTheme"
