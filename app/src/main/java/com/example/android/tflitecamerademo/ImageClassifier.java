@@ -109,7 +109,7 @@ public class ImageClassifier {
   String classifyFrame(Bitmap bitmap) {
     if (tflite == null) {
       Log.e(TAG, "Image classifier has not been initialized; Skipped.");
-      return "Uninitialized Classifier.";
+      return "";
     }
     convertBitmapToByteBuffer(bitmap);
     // Here's where the magic happens!!!
