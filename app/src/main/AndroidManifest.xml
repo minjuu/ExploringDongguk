@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.tflitecamerademo">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
@@ -33,7 +34,7 @@
 
         </activity>
         <activity android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/MaterialTheme"
             />
         <meta-data android:name="com.kakao.sdk.AppKey" android:value="ce9522a5345969a8ab576caf0b78f2ae"/>
     </application>
