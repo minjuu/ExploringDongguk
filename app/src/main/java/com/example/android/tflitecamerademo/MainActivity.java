@@ -18,7 +18,7 @@ import net.daum.mf.map.api.MapPoint;
 import net.daum.mf.map.api.MapView;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenticationResultListener,MapView.CurrentLocationEventListener{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,8 @@ public class MainActivity extends Activity {
         MapView mapView = new MapView(this);
         // 중심점 변경
         mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.558436292058964, 127.00016774048937), true);
+
+        mapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
 
         MapPoint MARKER_POINT1 = MapPoint.mapPointWithGeoCoord(37.55860868045855, 126.99946223916655);//본관
         MapPoint MARKER_POINT2 = MapPoint.mapPointWithGeoCoord(37.560109241180115, 126.99896634407318);//계산관
@@ -154,6 +156,7 @@ public class MainActivity extends Activity {
         customMarker12.setCustomImageAutoscale(false); // hdpi, xhdpi 등 안드로이드 플랫폼의 스케일을 사용할 경우 지도 라이브러리의 스케일 기능을 꺼줌.
         customMarker12.setCustomImageAnchor(0.5f, 1.0f); // 마커 이미지중 기준이 되는 위치(앵커포인트) 지정 - 마커 이미지 좌측 상단 기준 x(0.0f ~ 1.0f), y(0.0f ~ 1.0f) 값.
 
+
         mapView.addPOIItem(customMarker1);
         mapView.addPOIItem(customMarker2);
         mapView.addPOIItem(customMarker3);
@@ -166,6 +169,8 @@ public class MainActivity extends Activity {
         mapView.addPOIItem(customMarker10);
         mapView.addPOIItem(customMarker11);
         mapView.addPOIItem(customMarker12);
+
+
 
 
         MapPoint MARKER_POINT13 = MapPoint.mapPointWithGeoCoord(37.55826188223574, 126.99823925577131);//신공학관
@@ -245,29 +250,36 @@ public class MainActivity extends Activity {
         customMarker18.setCustomImageAnchor(0.5f, 1.0f); // 마커 이미지중 기준이 되는 위치(앵커포인트) 지정 - 마커 이미지 좌측 상단 기준 x(0.0f ~ 1.0f), y(0.0f ~ 1.0f) 값.
 
         mapView.addPOIItem(customMarker18);
-        mapView.setCalloutBalloonAdapter(new CustomCalloutBalloonAdapter());
 
         ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
         mapViewContainer.addView(mapView);
     }
-    class CustomCalloutBalloonAdapter implements CalloutBalloonAdapter {
-        private final View mCalloutBalloon;
 
-        public CustomCalloutBalloonAdapter() {
-            mCalloutBalloon = getLayoutInflater().inflate(R.layout.custom_callout_balloon, null);
-        }
 
-        @Override
-        public View getCalloutBalloon(MapPOIItem poiItem) {
-            ((ImageView) mCalloutBalloon.findViewById(R.id.badge)).setImageResource(R.drawable.ic_launcher);
-            ((TextView) mCalloutBalloon.findViewById(R.id.title)).setText(poiItem.getItemName());
-            ((TextView) mCalloutBalloon.findViewById(R.id.desc)).setText("Custom CalloutBalloon");
-            return mCalloutBalloon;
-        }
-
-        @Override
-        public View getPressedCalloutBalloon(MapPOIItem poiItem) {
-            return null;
-        }
+    @Override
+    public void onCurrentLocationUpdate(MapView mapView, MapPoint mapPoint, float v) {
+        mapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
     }
+
+    @Override
+    public void onCurrentLocationDeviceHeadingUpdate(MapView mapView, float v) {
+
+    }
+
+    @Override
+    public void onCurrentLocationUpdateFailed(MapView mapView) {
+
+    }
+
+    @Override
+    public void onCurrentLocationUpdateCancelled(MapView mapView) {
+
+    }
+
+    @Override
+    public void onDaumMapOpenAPIKeyAuthenticationResult(MapView mapView, int i, String s) {
+
+    }
+
+
 }
