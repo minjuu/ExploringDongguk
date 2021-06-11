@@ -1,25 +1,39 @@
 package com.example.android.tflitecamerademo;
 
-import android.app.Dialog;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.util.Log;
+import android.view.ViewGroup;
+
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.Window;
-import android.widget.Button;
+import net.daum.mf.map.api.MapView;
 
-import com.example.android.tflitecamerademo.R;
 
+//public class MainActivity extends AppCompatActivity {
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.dgumap);
+//
+//        MapView mapView = new MapView(this);
+//
+//        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+//        mapViewContainer.addView(mapView);
+//        Log.d("test","ddddddd");
+//    }
+//
+//}
 public class MainActivity extends AppCompatActivity {
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_camera2_basic);
+        setContentView(R.layout.dgumap);
 
+        MapView mapView = new MapView(this);
 
+        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+        mapViewContainer.addView(mapView);
+        Log.d("test","ddddddd");
     }
-
-
-
 }
-

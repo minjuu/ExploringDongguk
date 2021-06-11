@@ -1,27 +1,16 @@
-/* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-==============================================================================*/
-
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
+
+import net.daum.mf.map.api.MapView;
 
 /** Main {@code Activity} class for the Camera app. */
 public class CameraActivity extends Activity {
@@ -31,10 +20,26 @@ public class CameraActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_camera);
 
+    Button mapButton = (Button) findViewById(R.id.mapbtn);
+    mapButton.setOnClickListener(new View.OnClickListener() {
+
+      @Override
+      public void onClick(View view) {
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+      }
+    });
+
     dilaog01 = new Dialog(CameraActivity.this);       // Dialog 초기화
     dilaog01.requestWindowFeature(Window.FEATURE_NO_TITLE); // 타이틀 제거
     dilaog01.setContentView(R.layout.dialog01);             // xml 레이아웃 파일과 연결
 
+
+//    MapView mapView = new MapView(this);
+//
+//    ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+//    mapViewContainer.addView(mapView);
+//    Log.d("test","ddddddd");
 
     if (null == savedInstanceState) {
       getFragmentManager()
@@ -45,7 +50,6 @@ public class CameraActivity extends Activity {
 
     View.OnClickListener listener = new View.OnClickListener()
     {
-
       @Override
       public void onClick(View v) {
         showDialog01(); // 아래 showDialog01() 함수 호출
@@ -57,6 +61,11 @@ public class CameraActivity extends Activity {
   }
 
   public void showDialog01(){
+    MapView mapView = new MapView(this);
+
+    ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+    mapViewContainer.addView(mapView);
+    Log.d("test","ddddddd22");
     dilaog01.show(); // 다이얼로그 띄우기
     /* 이 함수 안에 원하는 디자인과 기능을 구현하면 된다. */
 

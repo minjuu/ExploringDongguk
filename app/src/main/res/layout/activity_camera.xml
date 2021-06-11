@@ -21,6 +21,19 @@
         android:textStyle="bold"
         ></Button>
 
+    <Button
+        android:id="@+id/mapbtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/tile"
+        android:textColor="#FAFDFD"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        ></Button>
+
     <FrameLayout
 
         android:id="@+id/container"
