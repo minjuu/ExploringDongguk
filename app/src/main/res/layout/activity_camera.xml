@@ -28,7 +28,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="18dp"
         android:layout_marginRight="70dp"
-        android:background="@drawable/tile"
+        android:background="@drawable/mapicon"
         android:textColor="#FAFDFD"
         android:textSize="14dp"
         android:textStyle="bold"
