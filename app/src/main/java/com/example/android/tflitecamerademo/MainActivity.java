@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import net.daum.mf.map.api.CalloutBalloonAdapter;
 import net.daum.mf.map.api.MapPOIItem;
@@ -18,7 +19,31 @@ import net.daum.mf.map.api.MapPoint;
 import net.daum.mf.map.api.MapView;
 
 
-public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenticationResultListener,MapView.CurrentLocationEventListener{
+public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenticationResultListener,MapView.CurrentLocationEventListener,MapView.POIItemEventListener{
+
+
+
+    // CalloutBalloonAdapter 인터페이스 구현
+    class CustomCalloutBalloonAdapter implements CalloutBalloonAdapter {
+        private final View mCalloutBalloon;
+
+        public CustomCalloutBalloonAdapter() {
+            mCalloutBalloon = getLayoutInflater().inflate(R.layout.custom_callout_balloon, null);
+        }
+
+        @Override
+        public View getCalloutBalloon(MapPOIItem poiItem) {
+            ((ImageView) mCalloutBalloon.findViewById(R.id.badge)).setImageResource(R.drawable.ic_launcher);
+            ((TextView) mCalloutBalloon.findViewById(R.id.title)).setText(poiItem.getItemName());
+            ((TextView) mCalloutBalloon.findViewById(R.id.desc)).setText("Custom CalloutBalloon");
+            return mCalloutBalloon;
+        }
+
+        @Override
+        public View getPressedCalloutBalloon(MapPOIItem poiItem) {
+            return null;
+        }
+    }
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,6 +92,7 @@ public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenti
         customMarker1.setCustomImageResourceId(R.drawable.marker); // 마커 이미지.
         customMarker1.setCustomImageAutoscale(false); // hdpi, xhdpi 등 안드로이드 플랫폼의 스케일을 사용할 경우 지도 라이브러리의 스케일 기능을 꺼줌.
         customMarker1.setCustomImageAnchor(0.5f, 1.0f); // 마커 이미지중 기준이 되는 위치(앵커포인트) 지정 - 마커 이미지 좌측 상단 기준 x(0.0f ~ 1.0f), y(0.0f ~ 1.0f) 값.
+
 
         customMarker2.setItemName("동국대학교 계산관");
         customMarker2.setTag(2);
@@ -216,6 +242,7 @@ public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenti
         MapPOIItem customMarker16 = new MapPOIItem();
 
         customMarker16.setItemName("동국대학교 정각원");
+
         customMarker16.setTag(16);
         customMarker16.setMapPoint(MARKER_POINT16);
         customMarker16.setMarkerType(MapPOIItem.MarkerType.CustomImage); // 마커타입을 커스텀 마커로 지정.
@@ -280,6 +307,25 @@ public class MainActivity extends Activity implements MapView.OpenAPIKeyAuthenti
     public void onDaumMapOpenAPIKeyAuthenticationResult(MapView mapView, int i, String s) {
 
     }
+    @Override
+    public void onPOIItemSelected(MapView mapView, MapPOIItem mapPOIItem) {
+        Log.d("111111111111111","진입");
+    }
 
+    @Override
+    public void onCalloutBalloonOfPOIItemTouched(MapView mapView, MapPOIItem mapPOIItem) {
+        Log.d("22222222222222222","진입");
+        Toast.makeText(MainActivity.this, "Clicked" + mapPOIItem.getItemName() + " Callout Balloon", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onCalloutBalloonOfPOIItemTouched(MapView mapView, MapPOIItem mapPOIItem, MapPOIItem.CalloutBalloonButtonType calloutBalloonButtonType) {
+        Log.d("33333333333333333","진입");
+    }
+
+    @Override
+    public void onDraggablePOIItemMoved(MapView mapView, MapPOIItem mapPOIItem, MapPoint mapPoint) {
+        Log.d("4444444444444444444","진입");
+    }
 
 }

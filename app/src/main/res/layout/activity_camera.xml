@@ -27,7 +27,7 @@
         android:layout_height="35dp"
         android:layout_alignParentRight="true"
         android:layout_marginTop="18dp"
-        android:layout_marginRight="70dp"
+        android:layout_marginRight="50dp"
         android:background="@drawable/mapicon"
         android:textColor="#FAFDFD"
         android:textSize="14dp"
