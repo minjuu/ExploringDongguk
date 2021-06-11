@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/dgumap" />-->
+
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="192dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학교 이름"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/nab"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nab"
+        android:padding="17dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="230dp"
+        android:text="학교 설명"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>
