@@ -42,9 +42,9 @@ public class InfoActivity extends AppCompatActivity {
             setContentView((R.layout.dialog06));
         else if(id.equals("중앙도서관(library)"))
             setContentView((R.layout.dialog07));
-        else if(id.equals("사회과학관(sahoegwahakgwan)"))
+        else if(id.equals("사회과학관(sahoegwahak)"))
             setContentView((R.layout.dialog08));
-        else if(id.equals("학술문화관(haksulmunhwagwan)"))
+        else if(id.equals("학술문화관(haksulmunhwa)"))
             setContentView((R.layout.dialog09));
         else if(id.equals("혜화관(hyehwagwan)"))
             setContentView((R.layout.dialog10));
@@ -56,7 +56,7 @@ public class InfoActivity extends AppCompatActivity {
             setContentView((R.layout.dialog13));
         else if(id.equals("신공학관(singonghakgwan)"))
             setContentView((R.layout.dialog14));
-        else if(id.equals("정보문화관(jeongbomunhwagwan)"))
+        else if(id.equals("정보문화관(jeongbomunhwa)"))
             setContentView((R.layout.dialog15));
         else if(id.equals("학생회관(studentcouncil)"))
             setContentView((R.layout.dialog16));
