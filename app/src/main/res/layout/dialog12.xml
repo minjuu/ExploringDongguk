@@ -85,4 +85,35 @@
         android:text="'계산고시학사'가 있던 건물이어서 이런 이름이 붙었다. A동과 B동으로 이루어져 있으며, 교책연구기관인 문화학술원 및 대외교류연구원 등의 교내 연구기관이 위치해 있다.\n\nThis name was given to the building where the 'Gyesan Goshi Haksa' was located. It consists of A-dong and B-dong, and on-campus research institutes such as the Center for Cultural Studies and the Institute for International Exchange are located." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

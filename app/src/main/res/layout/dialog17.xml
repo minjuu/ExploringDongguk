@@ -85,4 +85,35 @@
         android:text="정각원은 옛 경희궁의 숭정전 건물이다. 학교 부속 건물이기도 하지만 대한불교 조계종 소속 사찰이다. 이곳에서 수요일마다 학생 정기 법회가 열리며, '자아와 명상' 수업을 하기도 한다. 조금 떨어진 곳에는 범종각이 있으며, 매일 오전 8시 30분과 12시마다 종을 쳐서 시간을 알린다. \n\nJeonggagwon is the former Soongjeongjeon building of Gyeonghui Palace. Jeonggagwon is a temple affiliated with the Jogye Order of Korean Buddhism. There is a regular student law session on Wednesdays here, and there is also a 'self-meditation' class. A short distance away is Beomjonggak, and the bell rings every 8:30 a.m. and 12:00 a.m. to announce the time." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

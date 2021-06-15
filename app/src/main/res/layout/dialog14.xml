@@ -85,4 +85,35 @@
         android:text="원흥관 바로 옆에 위치한 10층짜리 건물로 공과대학의 여러 학과가 원흥관에서 이 곳으로 이주하였다. 각 학과의 강의실, 실습실, 연구실 등이 있으며 10층에는 교수님들의 연구실이 있다. \n\nA 10-story building located right next to Wonheung Hall, several departments of engineering colleges moved from Wonheung Hall to this building. There are classrooms, labs, and labs for each department, and professors' labs on the 10th floor." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

@@ -85,4 +85,35 @@
         android:text="사범대학과 교육대학원이 사용하는 건물이다. 지하 1층에는 소강당이 있다.\n\nIt is a building used by teachers' colleges and graduate schools of education. There is a small auditorium on the first basement floor." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

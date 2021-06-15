@@ -85,4 +85,35 @@
         android:text="중앙동아리들이 사용하는 건물로, 정보문화관 바로 옆에 위치한다. 4층에는 교내방송을 송신하는 DUBS의 동실과 송신실이 있다. \n\nIt is a building used by central clubs and is located right next to the Jeongbomunhwagwan. On the fourth floor, there is DUBS's Dongsil and Transmission Room, which transmits in-school broadcasting." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

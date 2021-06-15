@@ -85,4 +85,35 @@
         android:text="교양대학인 다르마칼리지와 몇몇 연구실들이 사용하는 건물이다. 본관인 P동과 별관인 Q동으로 이루어져있다. P동 5층은 유기화학 연구실, Q동 2층은 생화학 연구실이 사용하고 있다. \n\nIt is a building used by Dharma College, a liberal arts college, and several laboratories. It consists of the main building P and the annex Q. The fifth floor of Building P is used by the Organic Chemistry Laboratory and the second floor of Building Q is used by the Biochemistry Laboratory." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

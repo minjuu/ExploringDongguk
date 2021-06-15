@@ -85,4 +85,35 @@
         android:text="대부분의 공과대학이 사용하는 건물로 E동, F동, 별관으로 이루어져있다. 로비는 4층에 있으며, 3층에는 아리수라는 식당 겸 매점이 있다. \n\nIt is used by most engineering colleges and consists of E-dong, F-dong, and annexes. The lobby is located on the fourth floor, and there is a restaurant and canteen called Arisu on the third floor." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>

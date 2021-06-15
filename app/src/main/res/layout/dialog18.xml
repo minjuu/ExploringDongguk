@@ -85,4 +85,35 @@
         android:text="동국대학교 실내 체육관으로, 한국대학농구리그에서 동국대학교의 홈구장으로 사용된다. 바로 옆에는 야구부 타격연습장이 있다. \n\nDongguk University Indoor Gymnasium is the home stadium of Dongguk University in the Korean Basketball League. Right next to it is the batting practice ground for the baseball team." />
 
 
+
+    <Button
+
+        android:id="@+id/noBtn"
+
+        android:layout_width="35dp"
+
+        android:layout_height="35dp"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/no"
+
+        android:textColor="#FAFDFD"
+
+        android:textSize="14dp"
+
+        android:textStyle="bold"></Button>
+
+
+
+
+
+
+
+
+
 </RelativeLayout>
