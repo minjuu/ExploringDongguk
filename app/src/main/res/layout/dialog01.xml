@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools = "http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="350dp"
+    android:layout_height="580dp"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="#00FFFFFF">
+    tools:context=".MainActivity">
 
     <!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/dgumap" />-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/dgumap" />-->
 
     <ImageView
-        android:id="@+id/explain"
-        android:layout_width="300dp"
-        android:layout_height="400dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/margin_huge"
-        android:layout_marginBottom="@dimen/margin_huge"
-        android:src="@drawable/hyehwagwan"/>
+        android:id="@+id/map_view"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:src="@drawable/dgu"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="55dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/nab"
         android:padding="17dp"
-        android:text="🌏 동국대학교 한 눈에 보기"
+        android:layout_marginTop="225dp"
         android:textStyle="bold"
-        android:fontFamily="@font/nab"/>
+        android:layout_marginLeft="17dp"
+        android:text="🏛동국대학교"/>
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/na"
+        android:padding="17dp"
+        android:textAlignment="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="17dp"
+        android:text="동국대학교(Dongguk University)는 대한민국 서울특별시 중구(본교)와 경상북도 경주시(분교), 경기도 고양시, 미국 캘리포니아주 로스앤젤레스에 캠퍼스를 둔 4년제 사립 대학으로, 나라의 운명이 위기에 놓여 있던 1906년 불교계 선각자들이 교육구국의 목표를 갖고 불교인재를 길러내고자 설립한 명진학교에서 시작됐다. 약칭은 동대(DU)이다.
 
+    대한제국 광무 10년인 1906년 불교연구회가 주체가 돼 명진학교를 세운 뒤로 1946년에 대학기관으로 승격하여 동국대학으로 됐으며, 1953년에 종합대학으로 승격돼 오늘날의 동국대학교가 됐다. 불교정신을 바탕으로 학술과 인격을 연마하고 민족과 인류사회 및 자연에 이르기까지 지혜와 자비를 충만케 하여 서로 신뢰하고 공경하는 이상 세계의 구현을 건학이념으로 삼고 있다. 상징 동물은 석가모니의 탄생 설화 가운데 어머니 마야부인의 태몽에서 따온 코끼리이고, 상징 꽃은 불교의 진리를 뜻하는 연꽃이다." />
 
     <Button
         android:id="@+id/noBtn"
@@ -40,7 +50,7 @@
         android:layout_height="35dp"
         android:layout_alignParentRight="true"
         android:layout_marginTop="15dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="15dp"
         android:background="@drawable/no"
         android:textColor="#FAFDFD"
         android:textSize="14dp"

@@ -7,7 +7,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 public class InfoActivity extends AppCompatActivity {
-    ImageView img = (ImageView) findViewById(R.id.explain);
+//    ImageView img = (ImageView) findViewById(R.id.explain);
 //    int num = (int)(Math.random()*2);
     int num = 0;
     @Override
