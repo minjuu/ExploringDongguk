@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width="350dp"
+
+    android:layout_height="580dp"
+
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <!-- <ImageView-->
+
+    <!-- android:id="@+id/imageView"-->
+
+    <!-- android:layout_width="wrap_content"-->
+
+    <!-- android:layout_height="wrap_content"-->
+
+    <!-- android:src="@drawable/wonheunggwan" />-->
+
+
+
+    <ImageView
+
+        android:id="@+id/temple"
+
+        android:layout_width="245dp"
+
+        android:layout_height="245dp"
+
+        android:src="@drawable/temple"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginLeft="55dp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nab"
+
+        android:padding="17dp"
+
+        android:layout_marginTop="225dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="🏛정각원"/>
+
+    <TextView
+
+        android:id="@+id/explain17"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/na"
+
+        android:padding="17dp"
+
+        android:textAlignment="center"
+
+        android:layout_marginTop="250dp"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="정각원은 옛 경희궁의 숭정전 건물이다. 학교 부속 건물이기도 하지만 대한불교 조계종 소속 사찰이다. 이곳에서 수요일마다 학생 정기 법회가 열리며, '자아와 명상' 수업을 하기도 한다. 조금 떨어진 곳에는 범종각이 있으며, 매일 오전 8시 30분과 12시마다 종을 쳐서 시간을 알린다. \n\nJeonggagwon is the former Soongjeongjeon building of Gyeonghui Palace. Jeonggagwon is a temple affiliated with the Jogye Order of Korean Buddhism. There is a regular student law session on Wednesdays here, and there is also a 'self-meditation' class. A short distance away is Beomjonggak, and the bell rings every 8:30 a.m. and 12:00 a.m. to announce the time." />
+
+
+</RelativeLayout>

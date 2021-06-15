@@ -15,10 +15,10 @@
     <!--        android:src="@drawable/dgumap" />-->
 
     <ImageView
-        android:id="@+id/beobhakgwan"
+        android:id="@+id/myungjingwan"
         android:layout_width="245dp"
         android:layout_height="245dp"
-        android:src="@drawable/beobhakgwan"
+        android:src="@drawable/myungjingwan"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="55dp"/>
 
@@ -29,18 +29,19 @@
         android:layout_marginTop="225dp"
         android:fontFamily="@font/nab"
         android:padding="17dp"
-        android:text="🏛법학관"
+        android:text="🏛명진관"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/explain1"
+        android:id="@+id/explain3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="250dp"
         android:fontFamily="@font/na"
         android:padding="17dp"
-        android:text="법과대학과 불교대학이 사용하는 건물로, 남쪽의 교수회관 건물과 붙어있다. 1층은 법대건물 , 법대입구지만 2층에 올라가면 좌선실과 함께 불교대학 강의실들이 줄줄이 들어서 있다. \n\nBeophakgwan is a building used by law schools and Buddhist universities, and is attached to the faculty hall building in the south. The first floor of beophakgwan is the entrance to the law school building , law school, but if you go up to the second floor, there are a row of Buddhist university classrooms along with the left-hand cabin."
+        android:text="동국대학교에서 가장 먼저 지어진 건물이다. 명진관은 회색 석재를 이용한 고딕 양식의 건물로 국가등록문화재이다. 현재 문과대학과 이과대학이 사용하고 있다.
+ \n\nMyeongjingwan is the first building built at Dongguk University. Myeongjingwan is a Gothic building made of gray stone and is a state-registered cultural asset. It is currently used by liberal arts and natural sciences colleges."
         android:textAlignment="center" />
 
 

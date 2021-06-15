@@ -16,6 +16,7 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.app.Application;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
 import android.os.SystemClock;
@@ -35,6 +36,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import org.tensorflow.lite.Interpreter;
+
+
 
 /** Classifies images with Tensorflow Lite. */
 public class ImageClassifier {
@@ -212,11 +215,14 @@ public class ImageClassifier {
         sortedLabels.poll();
       }
     }
+    String id="";
     String textToShow = "";
     final int size = sortedLabels.size();
     for (int i = 0; i < size; ++i) {
       Map.Entry<String, Float> label = sortedLabels.poll();
       textToShow = String.format("\n%s: %4.2f",label.getKey(),label.getValue()) + textToShow;
+      id = String.format("%s",label.getKey());
+      MyGlobals.getInstance().setID(id);
     }
     return textToShow;
   }

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width="350dp"
+
+    android:layout_height="580dp"
+
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <!-- <ImageView-->
+
+    <!-- android:id="@+id/imageView"-->
+
+    <!-- android:layout_width="wrap_content"-->
+
+    <!-- android:layout_height="wrap_content"-->
+
+    <!-- android:src="@drawable/wonheunggwan" />-->
+
+
+
+    <ImageView
+
+        android:id="@+id/wonheunggwan"
+
+        android:layout_width="245dp"
+
+        android:layout_height="245dp"
+
+        android:src="@drawable/wonheunggwan"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginLeft="55dp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nab"
+
+        android:padding="17dp"
+
+        android:layout_marginTop="225dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="🏛원흥관"/>
+
+    <TextView
+
+        android:id="@+id/explain13"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/na"
+
+        android:padding="17dp"
+
+        android:textAlignment="center"
+
+        android:layout_marginTop="250dp"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="대부분의 공과대학이 사용하는 건물로 E동, F동, 별관으로 이루어져있다. 로비는 4층에 있으며, 3층에는 아리수라는 식당 겸 매점이 있다. \n\nIt is used by most engineering colleges and consists of E-dong, F-dong, and annexes. The lobby is located on the fourth floor, and there is a restaurant and canteen called Arisu on the third floor." />
+
+
+</RelativeLayout>

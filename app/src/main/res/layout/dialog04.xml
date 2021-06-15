@@ -15,10 +15,10 @@
     <!--        android:src="@drawable/dgumap" />-->
 
     <ImageView
-        android:id="@+id/beobhakgwan"
+        android:id="@+id/gwahakgwan"
         android:layout_width="245dp"
         android:layout_height="245dp"
-        android:src="@drawable/beobhakgwan"
+        android:src="@drawable/gwahakgwan"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="55dp"/>
 
@@ -29,18 +29,18 @@
         android:layout_marginTop="225dp"
         android:fontFamily="@font/nab"
         android:padding="17dp"
-        android:text="🏛법학관"
+        android:text="🏛과학관"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/explain1"
+        android:id="@+id/explain4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="250dp"
         android:fontFamily="@font/na"
         android:padding="17dp"
-        android:text="법과대학과 불교대학이 사용하는 건물로, 남쪽의 교수회관 건물과 붙어있다. 1층은 법대건물 , 법대입구지만 2층에 올라가면 좌선실과 함께 불교대학 강의실들이 줄줄이 들어서 있다. \n\nBeophakgwan is a building used by law schools and Buddhist universities, and is attached to the faculty hall building in the south. The first floor of beophakgwan is the entrance to the law school building , law school, but if you go up to the second floor, there are a row of Buddhist university classrooms along with the left-hand cabin."
+        android:text="명진관 뒤에 위치한 건물이다. 기초 물리학, 화학 등의 실습 실험들을 진행하는 각종 실험실이 있다. 이과대학 4개 학과의 교수 개인 사무실/연구실/학부 실험 및 실습실/세미나실/강의실이 있다. \n\nGwahakgwan is a building located behind myeongjingwan. There are various laboratories that conduct hands-on experiments such as basic physics and chemistry. There are private offices/lab/undergraduate experiments and labs/semina/lectures of professors of four science departments."
         android:textAlignment="center" />
 
 

@@ -15,10 +15,10 @@
     <!--        android:src="@drawable/dgumap" />-->
 
     <ImageView
-        android:id="@+id/beobhakgwan"
+        android:id="@+id/chungangdoseogwan"
         android:layout_width="245dp"
         android:layout_height="245dp"
-        android:src="@drawable/beobhakgwan"
+        android:src="@drawable/chungangdoseogwan"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="55dp"/>
 
@@ -29,18 +29,18 @@
         android:layout_marginTop="225dp"
         android:fontFamily="@font/nab"
         android:padding="17dp"
-        android:text="🏛법학관"
+        android:text="🏛중앙도서관"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/explain1"
+        android:id="@+id/explain7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="250dp"
         android:fontFamily="@font/na"
         android:padding="17dp"
-        android:text="법과대학과 불교대학이 사용하는 건물로, 남쪽의 교수회관 건물과 붙어있다. 1층은 법대건물 , 법대입구지만 2층에 올라가면 좌선실과 함께 불교대학 강의실들이 줄줄이 들어서 있다. \n\nBeophakgwan is a building used by law schools and Buddhist universities, and is attached to the faculty hall building in the south. The first floor of beophakgwan is the entrance to the law school building , law school, but if you go up to the second floor, there are a row of Buddhist university classrooms along with the left-hand cabin."
+        android:text="총 6층의 건물로 1층에는 카페가, 옥상에는 정원이 조성되어 있다. 중앙도서관에 비치되어 있는 도서는 총 70만 권 가량이다. 나머지 장서들은 '서고'에 있어 열람신청을 하여야 볼 수 있다. \n\nCentral Libray is a six-story building with a cafe on the first floor and a garden on the rooftop. There are about 700,000 books in the central library. The rest of the books are in the library and can only be viewed by applying for perusal."
         android:textAlignment="center" />
 
 

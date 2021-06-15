@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width="350dp"
+
+    android:layout_height="580dp"
+
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <!-- <ImageView-->
+
+    <!-- android:id="@+id/imageView"-->
+
+    <!-- android:layout_width="wrap_content"-->
+
+    <!-- android:layout_height="wrap_content"-->
+
+    <!-- android:src="@drawable/wonheunggwan" />-->
+
+
+
+    <ImageView
+
+        android:id="@+id/jeongbomunhwagwan"
+
+        android:layout_width="245dp"
+
+        android:layout_height="245dp"
+
+        android:src="@drawable/jeongbomunhwagwan"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginLeft="55dp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nab"
+
+        android:padding="17dp"
+
+        android:layout_marginTop="225dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="🏛정보문화관"/>
+
+    <TextView
+
+        android:id="@+id/explain15"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/na"
+
+        android:padding="17dp"
+
+        android:textAlignment="center"
+
+        android:layout_marginTop="250dp"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="교양대학인 다르마칼리지와 몇몇 연구실들이 사용하는 건물이다. 본관인 P동과 별관인 Q동으로 이루어져있다. P동 5층은 유기화학 연구실, Q동 2층은 생화학 연구실이 사용하고 있다. \n\nIt is a building used by Dharma College, a liberal arts college, and several laboratories. It consists of the main building P and the annex Q. The fifth floor of Building P is used by the Organic Chemistry Laboratory and the second floor of Building Q is used by the Biochemistry Laboratory." />
+
+
+</RelativeLayout>

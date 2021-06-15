@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width="350dp"
+
+    android:layout_height="580dp"
+
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <!-- <ImageView-->
+
+    <!-- android:id="@+id/imageView"-->
+
+    <!-- android:layout_width="wrap_content"-->
+
+    <!-- android:layout_height="wrap_content"-->
+
+    <!-- android:src="@drawable/wonheunggwan" />-->
+
+
+
+    <ImageView
+
+        android:id="@+id/singonghakgwan"
+
+        android:layout_width="245dp"
+
+        android:layout_height="245dp"
+
+        android:src="@drawable/singonghakgwan"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_marginLeft="55dp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nab"
+
+        android:padding="17dp"
+
+        android:layout_marginTop="225dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="🏛신공학관"/>
+
+    <TextView
+
+        android:id="@+id/explain14"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/na"
+
+        android:padding="17dp"
+
+        android:textAlignment="center"
+
+        android:layout_marginTop="250dp"
+
+        android:layout_marginLeft="17dp"
+
+        android:text="원흥관 바로 옆에 위치한 10층짜리 건물로 공과대학의 여러 학과가 원흥관에서 이 곳으로 이주하였다. 각 학과의 강의실, 실습실, 연구실 등이 있으며 10층에는 교수님들의 연구실이 있다. \n\nA 10-story building located right next to Wonheung Hall, several departments of engineering colleges moved from Wonheung Hall to this building. There are classrooms, labs, and labs for each department, and professors' labs on the 10th floor." />
+
+
+</RelativeLayout>
