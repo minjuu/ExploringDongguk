@@ -20,7 +20,7 @@
 ### 🖼 실행화면
 
 ------
-- 정각원 인식 화면
+- 건물 인식 화면
   <p style="text-align: center;">
     <img src="https://user-images.githubusercontent.com/57933061/125449581-0c38e895-e8b4-431a-acdc-a3124a0d16af.gif" width="220" float = "center">
   </p>
