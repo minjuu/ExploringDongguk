@@ -22,7 +22,7 @@
 ------
 - 정각원 인식 화면
   <p style="text-align: center;">
-    <img src="https://user-images.githubusercontent.com/57933061/125449581-0c38e895-e8b4-431a-acdc-a3124a0d16af.gif" width="200" float = "center">
+    <img src="https://user-images.githubusercontent.com/57933061/125449581-0c38e895-e8b4-431a-acdc-a3124a0d16af.gif" width="300" float = "center">
   </p>
 
 <br>
