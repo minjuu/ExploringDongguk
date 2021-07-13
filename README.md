@@ -20,14 +20,11 @@
 ### 🖼 실행화면
 
 ------
-- 낮에 실행하는 모습
+- 정각원 인식 화면
   <p style="text-align: center;">
-    <img src="https://user-images.githubusercontent.com/57933061/125449048-46efe15a-050a-4fea-bb65-9b74c4a047cc.JPG" width="400" float = "center">
+    <img src="https://user-images.githubusercontent.com/57933061/125449581-0c38e895-e8b4-431a-acdc-a3124a0d16af.gif" width="400" float = "center">
   </p>
-- 밤에 실행하는 모습
-  <p style="text-align: center;">
-    <img src="https://user-images.githubusercontent.com/57933061/125449058-4d059ea8-a40a-4437-9bfb-e9a6e1d552dc.JPG" width="400" float = "center">
-  </p>
+
 <br>
 
 
