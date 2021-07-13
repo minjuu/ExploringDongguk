@@ -1,6 +1,7 @@
 # ExploringDongguk
 
 ![icon](https://user-images.githubusercontent.com/57933061/122952166-cf485780-d3b8-11eb-99f8-d0a3d6456923.png)
+
 🌃 동국탐방 :: 딥러닝을 이용한 동국대학교 내 건물인식 기술 개발 및 모바일 앱 확장
 
 
@@ -59,7 +60,7 @@ https://github.com/minjuu/tflite_building.git
 
 ### 🌏 실행 영상
 
-[![실행 영상](https://user-images.githubusercontent.com/57933061/125443155-51c64991-94d4-4fdb-b31a-14434963dbff.png)](https://www.youtube.com/watch?v=EqErHPd4NzU) 
+[![실행 영상]](https://www.youtube.com/watch?v=EqErHPd4NzU) 
 
 ------
 
