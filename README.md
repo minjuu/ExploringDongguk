@@ -66,7 +66,7 @@ https://github.com/minjuu/tflite_building.git<br>
 https://github.com/minjuu/deeplearning_building.git
 
 
-### 🌏 실행 영상
+### 🌏 실행 영상 (클릭 시 이동)
 
 ------
 [![동국탐방](http://img.youtube.com/vi/EqErHPd4NzU/0.jpg)](https://www.youtube.com/watch?v=EqErHPd4NzU) 
