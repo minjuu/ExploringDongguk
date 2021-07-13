@@ -60,7 +60,7 @@ https://github.com/minjuu/tflite_building.git
 
 ### 🌏 실행 영상
 
-[![동국탐방](http://img.youtube.com/vi/QYNwbZHmh8g/0.jpg)](https://www.youtube.com/watch?v=EqErHPd4NzU) 
+[![동국탐방](http://img.youtube.com/vi/EqErHPd4NzU/0.jpg)](https://www.youtube.com/watch?v=EqErHPd4NzU) 
 
 ------
 
