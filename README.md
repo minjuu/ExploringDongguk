@@ -70,7 +70,7 @@
 
 ------
 
-- 딥러닝 모델 생성 및 고도화에 대한 repository 입니다.
+**딥러닝 모델 생성 및 고도화에 대한 repository 입니다.**<br>
 https://github.com/minjuu/deeplearning_building.git<br>
 https://github.com/minjuu/tflite_building.git
 
