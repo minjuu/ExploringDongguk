@@ -70,8 +70,10 @@
 
 ------
 
-https://github.com/minjuu/tflite_building.git<br>
-https://github.com/minjuu/deeplearning_building.git
+- 딥러닝 모델 생성 및 고도화에 대한 repository 입니다.
+https://github.com/minjuu/deeplearning_building.git<br>
+https://github.com/minjuu/tflite_building.git
+
 
 
 ### 🌏 실행 영상 (클릭 시 이동)
